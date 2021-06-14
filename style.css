@@ -47,7 +47,7 @@ h2 {
     font-family: monospace;
     font-weight: 200;
 }
-.Line {
+.line {
     height: 10px;
     width: 75px;
     background-color:darkmagenta;
@@ -63,18 +63,46 @@ p {
     list-style: none;
     font-family: fantasy;
     position: fixed;
-    top:10px;
-    right: 20px;
+    top:0px;
     z-index: 10;
+    margin-top: 0px;
+    background-color: bisque;
+    width: 100%;
         
 }
 .MenuItem {
-    float: left;
- color: Blue;
-    padding: 20px;
+    display: inline;
+padding: 20px;
     font-size:20px;
 }
 .MenuItem:hover{
-    background-color: cornsilk;
-    font-family: 'Sigmar One', cursive;
+   font-size: 25px;
+    text-decoration: underline;
+    }
+a {
+    color:blueviolet;
+    text-decoration: none;
+    text-shadow: 2px 2px lightblue;
+}
+
+.Article {
+   text-decoration: underline !important; 
+    color: cornflowerblue !important;
+    text-shadow: none !important;
+}
+.Article:hover{
+    color: crimson;
+    }
+html {
+    scroll-behavior: smooth;
+}
+#Contact h3{
+    display:inline;
+}
+#Contact {
+    background-color: darkmagenta;
+    }
+.contact_items_1 a{
+    color:aliceblue;
+    text-shadow: none;
 }
